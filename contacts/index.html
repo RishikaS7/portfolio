@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | YOUR_NAME</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../projects/">Projects</a>
+    <a href="./">Contact</a>
+    <a href="../cv/">CV</a>
+    <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
+  </nav>
+
+  <main>
+    <h1>Contact</h1>
+
+    <form
+      action="mailto:sahurishika7@gmail.com ."
+      method="POST"
+      enctype="text/plain"
+    >
+      <label>
+        Email
+        <input
+          name="email"
+          type="email"
+          value="example@example.com"
+        >
+      </label>
+
+      <label>
+        Subject
+        <input
+          name="subject"
+          value="Website contact"
+        >
+      </label>
+
+      <label>
+        Message
+        <textarea name="body">Hello! I am contacting you about...</textarea>
+      </label>
+
+      <button>Send</button>
+    </form>
+  </main>
+</body>
+</html>
