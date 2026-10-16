@@ -5,39 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me | Rishika Sahu</title>
   <link rel="stylesheet" href="../style.css">
+  <script src="../global.js" type="module"></script>
 </head>
 <body>
-  <nav>
-    <a href="../">Home</a>
-    <a href="../projects/">Projects</a>
-    <a class="current" href="./">Contact</a>
-    <a href="../resume/">Resume</a>
-    <a href="https://github.com/rishikas7" target="_blank">GitHub</a>
-  </nav>
-
   <main>
     <h1>Contact Me</h1>
 
-    <form
-      action="mailto:sahurishika7@gmail.com"
-      method="POST"
-      enctype="text/plain"
-    >
-      <label>
-        Email:
-        <input
-          name="email"
-          type="email"
-          value=""
-        >
-      </label>
-
+    <form action="mailto:sahurishika7@gmail.com" method="GET">
       <label>
         Subject:
-        <input
-          name="subject"
-          value=""
-        >
+        <input name="subject">
       </label>
 
       <label>
