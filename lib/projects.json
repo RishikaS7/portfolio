@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Permissible or Misconduct? NYPD Pepper-Spray Allegations",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "DSC 106 project presenting two opposing visualizations of 324 CCRB pepper-spray allegations (1999–2019), showing how pooling years and emphasizing different outcomes changes the story a chart tells."
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "This site! Built across the DSC 106 labs with HTML, modern CSS (grid, subgrid, oklch colors, dark mode), and modular JavaScript that renders projects from JSON and pulls live stats from the GitHub API."
+  },
+  {
+    "title": "Cooking Time Predictor",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A machine learning model that predicts recipe cooking time from recipe characteristics and nutritional information, using Pandas, EDA, hypothesis testing, feature engineering, and Scikit-learn."
+  },
+  {
+    "title": "ShoreCast: Coastal Disaster Monitoring System",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A coastal disaster monitoring system combining an Arduino-based KNN classifier, AWS EC2, real-time NOAA buoy data, and Scripps datasets to deliver live risk assessments and AI-generated alerts."
+  },
+  {
+    "title": "Basic Image Processing App",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "An object-oriented Python image processing app with inheritance, exception handling, and RGB pixel manipulation, plus a K-Nearest Neighbors classifier that labels images using Euclidean distance."
+  },
+  {
+    "title": "GroceryDB Exploratory Analysis",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Exploratory analysis and visualization of the GroceryDB dataset, examining how processing levels and nutrition vary across grocery products."
+  },
+  {
+    "title": "TBD",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "TBD"
+  },
+  {
+    "title": "TBD",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "TBD"
+  },
+  {
+    "title": "TBD",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "TBD"
+  },
+  {
+    "title": "TBD",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "TBD"
+  },
+  {
+    "title": "TBD",
+    "year": "2023",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "TBD"
+  },
+  {
+    "title": "TBD",
+    "year": "2023",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "TBD"
+  }
+]
