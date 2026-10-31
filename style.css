@@ -130,3 +130,79 @@ input, textarea, button, select {
     color: oklch(from var(--color-accent) 50% 30% h);
   }
 }
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: gray;
+  margin-block-start: 0.5em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+
+  path {
+    transition: 300ms;
+    cursor: pointer;
+  }
+
+  &:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+}
+
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  margin: 0;
+  list-style: none;
+  border: 1px solid oklch(50% 10% 200 / 40%);
+  border-radius: 0.5em;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  cursor: pointer;
+
+  em {
+    color: gray;
+  }
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: var(--color);
+}
+
+.selected {
+  --color: oklch(from var(--color-accent) 40% 30% h) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+.searchBar {
+  width: 100%;
+  padding: 0.5em;
+  margin-block-end: 1.5em;
+  box-sizing: border-box;
+}
