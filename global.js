@@ -10,6 +10,7 @@ const BASE_PATH = new URL('.', import.meta.url).pathname;
 let pages = [
   { url: '', title: 'Home' },
   { url: 'projects/', title: 'Projects' },
+  { url: 'meta/', title: 'Meta' },
   { url: 'contact/', title: 'Contact' },
   { url: 'resume/', title: 'Resume' },
   { url: 'https://github.com/rishikas7', title: 'GitHub' },
